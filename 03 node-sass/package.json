@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "node-sass -w src/scss/controlador.scss -o css --source-map true --output-style compressed"
+    "sass": "node-sass --watch src/scss --recursive --output  css --source-map true --output-style compressed"
   },
   "author": "",
   "license": "ISC",
